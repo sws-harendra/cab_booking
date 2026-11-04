@@ -6,17 +6,17 @@
 <!-- HERO SECTION (Refined Soft Dark Wash with Clean Luminous Console & Gold Accents) -->
 <section class="relative min-h-[90vh] pt-32 sm:pt-36 pb-20 flex flex-col items-center justify-center overflow-hidden bg-gradient-to-b from-[#1A2638] via-[#213046] to-[#283C56] border-b border-[#334B6B]/40">
     
-    <!-- Hero Background Image with Very Light, Subtle Dark Wash (Halka Dark Tint) -->
+    <!-- Hero Background Image with Balanced Visibility & Clear Text Legibility -->
     <div class="absolute inset-0 z-0 pointer-events-none">
-        <div class="absolute inset-0 bg-gradient-to-b from-[#1A2638]/65 via-[#213046]/40 to-[#283C56]/70 z-10"></div>
+        <div class="absolute inset-0 bg-gradient-to-b from-[#0B172A]/75 via-[#0B172A]/45 to-[#0B172A]/80 z-10"></div>
         <img
-            src="{{ asset('images/hero_sedan.jpg') }}"
-            alt="Patna Transport Sedan"
-            class="w-full h-full object-cover object-center opacity-65 filter saturate-125 contrast-105"
+            src="{{ asset('images/patna_transport_fleet.jpg') }}"
+            alt="Patna Transport Fleet"
+            class="w-full h-full object-cover object-center opacity-80 filter saturate-115 contrast-105"
         />
         <!-- Ambient Champagne Gold & Ice Blue Glows -->
-        <div class="motion-glow absolute top-1/4 left-1/4 w-96 h-96 bg-sky-400/20 rounded-full blur-3xl pointer-events-none"></div>
-        <div class="motion-glow absolute top-1/3 right-1/4 w-80 h-80 bg-amber-400/15 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="motion-glow absolute top-1/4 left-1/4 w-96 h-96 bg-sky-400/15 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="motion-glow absolute top-1/3 right-1/4 w-80 h-80 bg-amber-400/10 rounded-full blur-3xl pointer-events-none"></div>
     </div>
 
     <div class="relative z-10 text-center px-4 w-full max-w-5xl mx-auto">
