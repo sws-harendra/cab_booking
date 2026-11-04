@@ -186,6 +186,12 @@
                     <a href="{{ route('contact') }}" class="hover:text-amber-300 transition-colors">Contact Us</a>
                 </div>
             </div>
+
+            <!-- Credit: Startup Web Support -->
+            <div class="mt-6 pt-4 border-t border-white/5 text-center text-[11px] sm:text-xs text-slate-400 flex items-center justify-center gap-1.5 font-normal">
+                <span>Website Designed & Developed with ❤️ by</span>
+                <span class="text-amber-400 font-bold tracking-wide">Startup Web Support</span>
+            </div>
         </div>
     </footer>
 
