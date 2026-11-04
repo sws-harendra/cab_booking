@@ -243,7 +243,7 @@
             <div class="cab-card electric card-clean overflow-hidden flex flex-col justify-between">
                 <div>
                     <div class="h-56 overflow-hidden relative">
-                        <img src="{{ asset('images/electric_hyper.jpg') }}" alt="Tata Tigor EV" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                        <img src="{{ asset('images/fleet_electric.jpg') }}" alt="Tata Tigor EV" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                         <span class="absolute top-4 left-4 bg-emerald-500 text-white px-3 py-1 rounded-full text-xs font-bold shadow-sm">
                             ⚡ GREEN ELECTRIC
                         </span>
@@ -414,75 +414,4 @@
 </section>
 @endsection
 
-@push('scripts')
-<script>
-function filterCabs(category) {
-    const buttons = {
-        all: document.getElementById('btnFilterAll'),
-        sedan: document.getElementById('btnFilterSedan'),
-        suv: document.getElementById('btnFilterSuv'),
-        electric: document.getElementById('btnFilterElectric'),
-        van: document.getElementById('btnFilterVan'),
-    };
 
-    Object.keys(buttons).forEach(k => {
-        if (buttons[k]) {
-            buttons[k].className = 'px-5 py-2 rounded-full text-xs font-bold uppercase tracking-wider transition-all bg-white border border-[#C7E0FA] text-[#1E3A5F] hover:bg-[#E1EFFD]';
-        }
-    });
-
-    if (buttons[category]) {
-        buttons[category].className = 'px-5 py-2 rounded-full text-xs font-bold uppercase tracking-wider transition-all bg-[#004E92] text-white shadow-md';
-        if (window.animate) {
-            window.animate(buttons[category], { scale: [0.93, 1.08, 1] }, { duration: 0.35, ease: [0.16, 1, 0.3, 1] });
-        }
-    }
-
-    const cards = document.querySelectorAll('.cab-card');
-    const visibleCards = [];
-    cards.forEach(c => {
-        if (category === 'all' || c.classList.contains(category)) {
-            c.style.display = 'flex';
-            visibleCards.push(c);
-        } else {
-            c.style.display = 'none';
-        }
-    });
-
-    if (window.animate && visibleCards.length > 0) {
-        window.animate(
-            visibleCards,
-            { opacity: [0, 1], scale: [0.9, 1], y: [15, 0] },
-            { delay: window.stagger(0.06), duration: 0.45, ease: [0.16, 1, 0.3, 1] }
-        );
-    }
-
-    window.showToast(`Showing: ${category.toUpperCase()}`);
-}
-
-function openDetailsModal(type) {
-    const modal = document.getElementById('detailsModal');
-    const title = document.getElementById('modalTitle');
-    const img = document.getElementById('modalImage');
-    const pax = document.getElementById('modalPax');
-    const bags = document.getElementById('modalBags');
-    const fare = document.getElementById('modalFare');
-    const link = document.getElementById('modalBookLink');
-
-    if (type === 'sedan') {
-        title.innerText = 'Maruti Suzuki Dzire';
-        img.src = '{{ asset("images/hero_sedan.jpg") }}';
-        pax.innerText = '4 Persons';
-        bags.innerText = '3 Bags';
-        fare.innerText = '₹899 Base (₹11/KM)';
-    link.href = 'tel:8877177161';
-    }
-
-    modal.classList.remove('hidden');
-}
-
-function closeDetailsModal() {
-    document.getElementById('detailsModal').classList.add('hidden');
-}
-</script>
-@endpush

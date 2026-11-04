@@ -18,7 +18,7 @@
 </head>
 <body class="bg-[#F0F6FD] text-[#0B172A] font-sans min-h-full flex flex-col selection:bg-sky-200 selection:text-sky-950 overflow-x-hidden relative">
 
-    <!-- Radiant Top Scroll Progress (Light Blue to Gold Gradient - Powered by Framer Motion scroll) -->
+    <!-- Radiant Top Scroll Progress (Light Blue to Gold Gradient - Powered by GSAP ScrollTrigger) -->
     <div id="scrollProgress" class="fixed top-0 left-0 h-1.5 bg-gradient-to-r from-sky-400 via-sky-600 to-amber-400 z-[200] pointer-events-none" style="width: 0%;"></div>
 
     <!-- Top Announcement Strip (Details from Poster: Phone, Location, Services) -->

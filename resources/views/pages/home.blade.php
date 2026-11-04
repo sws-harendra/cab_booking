@@ -367,18 +367,4 @@
 </section>
 @endsection
 
-@push('scripts')
-<script>
-function toggleFaq(index) {
-    const content = document.getElementById(`faqContent${index}`);
-    const icon = document.getElementById(`faqIcon${index}`);
-    if (content.classList.contains('hidden')) {
-        content.classList.remove('hidden');
-        icon.innerText = '−';
-    } else {
-        content.classList.add('hidden');
-        icon.innerText = '+';
-    }
-}
-</script>
-@endpush
+
