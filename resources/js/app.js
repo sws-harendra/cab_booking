@@ -146,45 +146,45 @@ window.openDetailsModal = function(type) {
     const cabSpecs = {
         sedan: {
             title: 'Maruti Suzuki Dzire',
-            img: '/images/hero_sedan.jpg',
+            img: '/images/car_dzire.jpg',
             pax: '4 Persons',
             bags: '3 Bags',
             fare: '₹899 Base (₹11/KM)'
         },
         suv: {
             title: 'Mahindra Scorpio Classic',
-            img: '/images/fleet_suv.jpg',
+            img: '/images/car_scorpio.jpg',
             pax: '7 Persons',
             bags: '5 Bags',
             fare: '₹1,499 Base (₹16/KM)'
         },
         van: {
-            title: 'Maruti Suzuki Ertiga',
-            img: '/images/fleet_electric.jpg',
-            pax: '7 Persons',
+            title: 'Maruti Suzuki Brezza',
+            img: '/images/car_brezza.jpg',
+            pax: '5 Persons',
             bags: '4 Bags',
-            fare: '₹1,299 Base (₹14/KM)'
+            fare: '₹1,199 Base (₹13/KM)'
         },
         innova: {
-            title: 'Toyota Innova Crysta',
-            img: '/images/luxe_interior.jpg',
-            pax: '7 Persons',
-            bags: '6 Bags',
+            title: 'Mahindra Thar 4x4 VIP',
+            img: '/images/car_thar.jpg',
+            pax: '4 Persons',
+            bags: '3 Bags',
             fare: '₹1,699 Base (₹18/KM)'
         },
         electric: {
-            title: 'Tata Tigor EV (Electric)',
-            img: '/images/fleet_electric.jpg',
+            title: 'Maruti Swift Special',
+            img: '/images/car_swift_red.jpg',
             pax: '4 Persons',
-            bags: '3 Bags',
-            fare: '₹999 Base (₹12/KM)'
+            bags: '2 Bags',
+            fare: '₹799 Base (₹10/KM)'
         },
         traveler: {
-            title: 'Executive Tour Traveler',
-            img: '/images/fleet_van.jpg',
-            pax: '12 Persons',
-            bags: '10+ Bags',
-            fare: '₹2,499 Base (₹22/KM)'
+            title: 'Patna Transport Group Fleet',
+            img: '/images/patna_transport_fleet.jpg',
+            pax: '2 to 20 Cabs',
+            bags: '50+ Bags',
+            fare: 'Custom Group Tour'
         }
     };
 

@@ -167,7 +167,7 @@
             <div class="card-clean overflow-hidden flex flex-col justify-between">
                 <div>
                     <div class="h-52 overflow-hidden relative">
-                        <img src="{{ asset('images/hero_sedan.jpg') }}" alt="Maruti Suzuki Dzire Patna" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                        <img src="{{ asset('images/car_dzire.jpg') }}" alt="Maruti Suzuki Dzire Patna" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                         <span class="absolute top-4 left-4 bg-white/95 border border-[#C7E0FA] px-3 py-1 rounded-full text-xs font-bold text-[#0B172A] shadow-sm">
                             ⭐ CITY & AIRPORT FAVORITE
                         </span>
@@ -197,7 +197,7 @@
             <div class="card-clean overflow-hidden flex flex-col justify-between border-2 border-sky-300">
                 <div>
                     <div class="h-52 overflow-hidden relative">
-                        <img src="{{ asset('images/fleet_suv.jpg') }}" alt="Mahindra Scorpio Classic Patna" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                        <img src="{{ asset('images/car_scorpio.jpg') }}" alt="Mahindra Scorpio Classic Patna" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                         <span class="absolute top-4 left-4 bg-[#004E92] text-white px-3 py-1 rounded-full text-xs font-bold shadow-md">
                             👑 HIGHWAY KING
                         </span>
@@ -223,31 +223,35 @@
                 </div>
             </div>
 
-            <!-- Cab 3: Maruti Ertiga -->
+            <!-- Cab 3: Maruti Vitara Brezza -->
             <div class="card-clean overflow-hidden flex flex-col justify-between">
                 <div>
                     <div class="h-52 overflow-hidden relative">
-                        <img src="{{ asset('images/fleet_electric.jpg') }}" alt="Maruti Suzuki Ertiga Patna" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                        <img src="{{ asset('images/car_brezza.jpg') }}" alt="Maruti Suzuki Vitara Brezza Patna" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                         <span class="absolute top-4 left-4 bg-amber-500 text-slate-900 px-3 py-1 rounded-full text-xs font-bold shadow-sm">
-                            👥 7-SEATER MPV
+                            👥 COMFORT SUV
                         </span>
                     </div>
                     <div class="p-6">
                         <div class="flex items-center justify-between mb-2">
-                            <h3 class="text-xl font-bold text-[#0B172A]">Maruti Suzuki Ertiga</h3>
-                            <span class="text-xl font-bold text-amber-600">₹14 <span class="text-xs text-slate-500 font-sans">/ KM</span></span>
+                            <h3 class="text-xl font-bold text-[#0B172A]">Maruti Suzuki Brezza</h3>
+                            <span class="text-xl font-bold text-amber-600">₹13 <span class="text-xs text-slate-500 font-sans">/ KM</span></span>
                         </div>
-                        <p class="text-xs text-[#475569] mb-4">Comfortable 7-seater with dual AC. Perfect for family airport runs and Bodh Gaya tours.</p>
+                        <p class="text-xs text-[#475569] mb-4">High seating, clean AC interior, and smooth city/highway ride for comfortable travel across Bihar.</p>
                         
                         <div class="flex items-center gap-4 text-xs font-medium text-slate-500 border-t border-[#E1EFFD] pt-3">
-                            <span>👤 7 Passengers</span>
+                            <span>👤 5 Passengers</span>
                             <span>🧳 4 Bags</span>
-                            <span>❄️ Dual AC</span>
+                            <span>❄️ Chilled AC</span>
                         </div>
                     </div>
                 </div>
                 <div class="p-6 pt-0">
                     <a href="tel:8877177161" class="btn-blue w-full text-center py-3 text-xs block font-bold">
+                        📞 Call to Book Brezza (8877177161)
+                    </a>
+                </div>
+            </div>
                         📞 Call to Book Ertiga (8877177161)
                     </a>
                 </div>
