@@ -34,7 +34,7 @@
                     24x7 Active
                 </span>
                 <span class="hidden sm:inline text-sky-200">📍 <strong>Our Location:</strong> Boring Road, Patna</span>
-                <span class="text-sky-200 hidden md:inline">• 24x7 Cab Service | Outstation | Local | Airport Pickup</span>
+                <span class="text-sky-200 hidden md:inline">• 24x7 Cabs | 🚗 Self-Drive Car Rentals | Outstation | Airport Pickup</span>
             </div>
             <div class="flex items-center gap-4 text-xs font-bold ml-auto sm:ml-0">
                 <a href="tel:8877177161" class="flex items-center gap-1.5 bg-amber-400 hover:bg-amber-300 text-slate-900 px-3 py-1 rounded-full transition-transform hover:scale-105 shadow-sm">
@@ -132,10 +132,11 @@
                         </div>
                     </div>
                     <p class="text-sm text-slate-300 max-w-sm leading-relaxed font-light">
-                        Patna's premier cab service based at Boring Road. Delivering reliable 24x7 local rides, on-time airport pickups at Jay Prakash Narayan Airport (PAT), and smooth outstation journeys across Bihar and Jharkhand.
+                        Patna's premier cab & self-drive car rental service based at Boring Road. Delivering reliable 24x7 local rides, self-drive cars on daily/weekly rent, on-time airport pickups at Jay Prakash Narayan Airport (PAT), and outstation trips across Bihar and Jharkhand.
                     </p>
                     <div class="flex flex-wrap items-center gap-4 text-xs text-amber-400 font-semibold pt-1">
                         <span>✨ 24x7 Cab Service</span>
+                        <span>✨ 🚗 Self-Drive Rentals</span>
                         <span>✨ Outstation Trips</span>
                         <span>✨ Airport Pickup</span>
                         <span>✨ Boring Road, Patna</span>

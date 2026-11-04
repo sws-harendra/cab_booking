@@ -91,6 +91,7 @@ window.toggleFaq = function(index) {
 window.filterCabs = function(category) {
     const buttons = {
         all: document.getElementById('btnFilterAll'),
+        selfdrive: document.getElementById('btnFilterSelfDrive'),
         sedan: document.getElementById('btnFilterSedan'),
         suv: document.getElementById('btnFilterSuv'),
         electric: document.getElementById('btnFilterElectric'),

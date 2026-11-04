@@ -72,6 +72,17 @@
                             </div>
                         </div>
 
+                        <!-- Self-Drive Desk -->
+                        <div class="p-4 rounded-2xl bg-amber-50 border-2 border-amber-300 flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-2xl bg-amber-400 text-slate-900 flex items-center justify-center font-bold text-xl shrink-0 shadow-sm">
+                                🚗
+                            </div>
+                            <div>
+                                <span class="text-[10px] text-amber-800 uppercase font-bold block">SELF-DRIVE RENTAL DESK</span>
+                                <span class="text-sm font-bold text-[#0B172A] block">Boring Road, Patna • Daily & Weekly Rent</span>
+                            </div>
+                        </div>
+
                         <!-- Airport Desk -->
                         <div class="p-4 rounded-2xl bg-[#F0F6FD] border border-[#C7E0FA] flex items-center gap-4">
                             <div class="w-12 h-12 rounded-2xl bg-sky-100 text-[#004E92] flex items-center justify-center font-bold text-xl shrink-0 shadow-sm">
@@ -144,7 +155,8 @@
                             <div>
                                 <label class="block text-xs font-semibold uppercase tracking-wider text-[#475569] mb-1.5">Inquiry Type</label>
                                 <select id="bookInquiry" class="input-clean w-full px-4 py-3 text-xs font-medium">
-                                    <option>Local Patna Ride</option>
+                                    <option>🚗 Self-Drive Car Rental (Daily / Weekly on Rent)</option>
+                                    <option>Local Patna Ride (With Chauffeur / Driver)</option>
                                     <option>Patna Airport (PAT) Pickup / Drop</option>
                                     <option>Outstation Trip (Bodh Gaya / Rajgir / Varanasi)</option>
                                     <option>Wedding & Corporate Fleet Booking</option>

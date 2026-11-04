@@ -24,19 +24,22 @@
         <!-- Category Filter Buttons (Light Blue Pill Style) -->
         <div class="flex flex-wrap items-center justify-center gap-2 pt-8">
             <button type="button" onclick="filterCabs('all')" id="btnFilterAll" class="px-5 py-2 rounded-full text-xs font-bold uppercase tracking-wider transition-all bg-[#004E92] text-white shadow-md">
-                All Cabs (6)
+                All Vehicles (6)
             </button>
-            <button type="button" onclick="filterCabs('sedan')" id="btnFilterSedan" class="px-5 py-2 rounded-full text-xs font-bold uppercase tracking-wider transition-all bg-white border border-[#C7E0FA] text-[#1E3A5F] hover:bg-[#E1EFFD]">
-                Sedans
+            <button type="button" onclick="filterCabs('selfdrive')" id="btnFilterSelfDrive" class="px-5 py-2 rounded-full text-xs font-bold uppercase tracking-wider transition-all bg-emerald-50 border border-emerald-300 text-emerald-800 hover:bg-emerald-100 flex items-center gap-1.5 shadow-sm">
+                🚗 Self-Drive (Rent)
             </button>
             <button type="button" onclick="filterCabs('suv')" id="btnFilterSuv" class="px-5 py-2 rounded-full text-xs font-bold uppercase tracking-wider transition-all bg-white border border-[#C7E0FA] text-[#1E3A5F] hover:bg-[#E1EFFD]">
                 SUVs
             </button>
-            <button type="button" onclick="filterCabs('electric')" id="btnFilterElectric" class="px-5 py-2 rounded-full text-xs font-bold uppercase tracking-wider transition-all bg-white border border-[#C7E0FA] text-[#1E3A5F] hover:bg-[#E1EFFD]">
-                Electric Cabs
+            <button type="button" onclick="filterCabs('sedan')" id="btnFilterSedan" class="px-5 py-2 rounded-full text-xs font-bold uppercase tracking-wider transition-all bg-white border border-[#C7E0FA] text-[#1E3A5F] hover:bg-[#E1EFFD]">
+                Sedans
             </button>
             <button type="button" onclick="filterCabs('van')" id="btnFilterVan" class="px-5 py-2 rounded-full text-xs font-bold uppercase tracking-wider transition-all bg-white border border-[#C7E0FA] text-[#1E3A5F] hover:bg-[#E1EFFD]">
                 7-Seaters & Vans
+            </button>
+            <button type="button" onclick="filterCabs('electric')" id="btnFilterElectric" class="px-5 py-2 rounded-full text-xs font-bold uppercase tracking-wider transition-all bg-white border border-[#C7E0FA] text-[#1E3A5F] hover:bg-[#E1EFFD]">
+                Electric Cabs
             </button>
         </div>
     </div>
@@ -48,12 +51,15 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="fleetContainer">
             
             <!-- CAB 1: Maruti Suzuki Dzire -->
-            <div class="cab-card sedan card-clean overflow-hidden flex flex-col justify-between">
+            <div class="cab-card sedan selfdrive card-clean overflow-hidden flex flex-col justify-between">
                 <div>
                     <div class="h-56 overflow-hidden relative">
                         <img src="{{ asset('images/car_dzire.jpg') }}" alt="Maruti Suzuki Dzire" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                         <span class="absolute top-4 left-4 bg-white/95 border border-[#C7E0FA] px-3 py-1 rounded-full text-xs font-bold text-[#0B172A] shadow-sm">
                             ⭐ CITY & AIRPORT FAVORITE
+                        </span>
+                        <span class="absolute top-4 right-4 bg-emerald-600 text-white px-2.5 py-0.5 rounded-full text-[10px] font-bold shadow-md">
+                            🚗 SELF-DRIVE AVAILABLE
                         </span>
                     </div>
                     <div class="p-6">
@@ -61,7 +67,8 @@
                             <h3 class="text-xl font-bold text-[#0B172A]">Maruti Suzuki Dzire</h3>
                             <span class="text-xl font-bold text-amber-600">₹11 <span class="text-xs text-slate-500 font-sans">/ KM</span></span>
                         </div>
-                        <p class="text-xs text-[#475569] mb-4">Quiet, air-conditioned sedan. Ideal for Patna Airport (PAT) transfers, Boring Road, and daily city travel.</p>
+                        <div class="text-[11px] font-bold text-emerald-700 mb-2">🚗 Self-Drive Rent: From ₹1,600 / Day</div>
+                        <p class="text-xs text-[#475569] mb-4">Quiet, air-conditioned sedan. Ideal for Patna Airport (PAT) transfers, Boring Road, and daily city travel or self-drive rent.</p>
 
                         <div class="grid grid-cols-3 gap-2 py-3 border-y border-[#E1EFFD] text-center text-xs text-[#475569]">
                             <div>
@@ -80,7 +87,7 @@
 
                         <div class="flex flex-wrap gap-1.5 pt-3">
                             <span class="px-2.5 py-1 rounded-full bg-[#F0F6FD] text-[11px] text-[#334155] border border-[#C7E0FA]">Chilled AC</span>
-                            <span class="px-2.5 py-1 rounded-full bg-[#F0F6FD] text-[11px] text-[#334155] border border-[#C7E0FA]">Bottled Water</span>
+                            <span class="px-2.5 py-1 rounded-full bg-[#F0F6FD] text-[11px] text-[#334155] border border-[#C7E0FA]">Self-Drive Rent</span>
                             <span class="px-2.5 py-1 rounded-full bg-[#F0F6FD] text-[11px] text-[#334155] border border-[#C7E0FA]">Phone Charger</span>
                         </div>
                     </div>
@@ -92,16 +99,22 @@
                     <a href="tel:8877177161" class="btn-gold w-full py-2.5 text-xs block text-center font-bold shadow-md">
                         📞 Call to Book Dzire
                     </a>
+                    <a href="https://wa.me/918877177161?text=Hi%20Patna%20Transport,%20I%20want%20to%20rent%20Dzire%20for%20Self-Drive." target="_blank" class="w-full text-center py-2 text-xs block font-bold text-emerald-800 bg-emerald-50 hover:bg-emerald-100 rounded-full border border-emerald-300">
+                        💬 WhatsApp for Self-Drive Rent
+                    </a>
                 </div>
             </div>
 
             <!-- CAB 2: Mahindra Scorpio Classic -->
-            <div class="cab-card suv card-clean overflow-hidden flex flex-col justify-between border-2 border-sky-300">
+            <div class="cab-card suv selfdrive card-clean overflow-hidden flex flex-col justify-between border-2 border-sky-300">
                 <div>
                     <div class="h-56 overflow-hidden relative">
                         <img src="{{ asset('images/car_scorpio.jpg') }}" alt="Mahindra Scorpio Classic" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                         <span class="absolute top-4 left-4 bg-[#004E92] text-white px-3 py-1 rounded-full text-xs font-bold shadow-md">
                             👑 HIGHWAY KING
+                        </span>
+                        <span class="absolute top-4 right-4 bg-emerald-600 text-white px-2.5 py-0.5 rounded-full text-[10px] font-bold shadow-md">
+                            🚗 SELF-DRIVE AVAILABLE
                         </span>
                     </div>
                     <div class="p-6">
@@ -109,7 +122,8 @@
                             <h3 class="text-xl font-bold text-[#0B172A]">Mahindra Scorpio</h3>
                             <span class="text-xl font-bold text-amber-600">₹16 <span class="text-xs text-slate-500 font-sans">/ KM</span></span>
                         </div>
-                        <p class="text-xs text-[#475569] mb-4">Commanding presence and high road clearance. Perfect for outstation Bihar trips, Bodh Gaya, and weddings.</p>
+                        <div class="text-[11px] font-bold text-emerald-700 mb-2">🚗 Self-Drive Rent: From ₹2,800 / Day</div>
+                        <p class="text-xs text-[#475569] mb-4">Commanding presence and high road clearance. Perfect for outstation Bihar trips, Bodh Gaya, weddings, or self-drive rent.</p>
 
                         <div class="grid grid-cols-3 gap-2 py-3 border-y border-[#E1EFFD] text-center text-xs text-[#475569]">
                             <div>
@@ -128,7 +142,7 @@
 
                         <div class="flex flex-wrap gap-1.5 pt-3">
                             <span class="px-2.5 py-1 rounded-full bg-[#F0F6FD] text-[11px] text-[#334155] border border-[#C7E0FA]">Rear AC Vents</span>
-                            <span class="px-2.5 py-1 rounded-full bg-[#F0F6FD] text-[11px] text-[#334155] border border-[#C7E0FA]">Rugged Suspension</span>
+                            <span class="px-2.5 py-1 rounded-full bg-[#F0F6FD] text-[11px] text-[#334155] border border-[#C7E0FA]">Self-Drive Rent</span>
                             <span class="px-2.5 py-1 rounded-full bg-[#F0F6FD] text-[11px] text-[#334155] border border-[#C7E0FA]">Highway Certified</span>
                         </div>
                     </div>
@@ -140,16 +154,22 @@
                     <a href="tel:8877177161" class="btn-gold w-full py-2.5 text-xs block text-center font-bold shadow-md">
                         📞 Call to Book Scorpio
                     </a>
+                    <a href="https://wa.me/918877177161?text=Hi%20Patna%20Transport,%20I%20want%20to%20rent%20Scorpio%20for%20Self-Drive." target="_blank" class="w-full text-center py-2 text-xs block font-bold text-emerald-800 bg-emerald-50 hover:bg-emerald-100 rounded-full border border-emerald-300">
+                        💬 WhatsApp for Self-Drive Rent
+                    </a>
                 </div>
             </div>
 
             <!-- CAB 3: Maruti Suzuki Brezza -->
-            <div class="cab-card suv card-clean overflow-hidden flex flex-col justify-between">
+            <div class="cab-card suv selfdrive card-clean overflow-hidden flex flex-col justify-between">
                 <div>
                     <div class="h-56 overflow-hidden relative">
                         <img src="{{ asset('images/car_brezza.jpg') }}" alt="Maruti Suzuki Vitara Brezza" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                         <span class="absolute top-4 left-4 bg-amber-500 text-slate-900 px-3 py-1 rounded-full text-xs font-bold shadow-sm">
                             👥 COMFORT SUV
+                        </span>
+                        <span class="absolute top-4 right-4 bg-emerald-600 text-white px-2.5 py-0.5 rounded-full text-[10px] font-bold shadow-md">
+                            🚗 SELF-DRIVE AVAILABLE
                         </span>
                     </div>
                     <div class="p-6">
@@ -157,7 +177,8 @@
                             <h3 class="text-xl font-bold text-[#0B172A]">Maruti Suzuki Brezza</h3>
                             <span class="text-xl font-bold text-amber-600">₹13 <span class="text-xs text-slate-500 font-sans">/ KM</span></span>
                         </div>
-                        <p class="text-xs text-[#475569] mb-4">High seating, clean AC interior, and smooth city/highway ride for comfortable travel across Bihar.</p>
+                        <div class="text-[11px] font-bold text-emerald-700 mb-2">🚗 Self-Drive Rent: From ₹2,200 / Day</div>
+                        <p class="text-xs text-[#475569] mb-4">High seating, clean AC interior, and smooth city/highway ride for comfortable travel across Bihar or self-drive rent.</p>
 
                         <div class="grid grid-cols-3 gap-2 py-3 border-y border-[#E1EFFD] text-center text-xs text-[#475569]">
                             <div>
@@ -176,7 +197,7 @@
 
                         <div class="flex flex-wrap gap-1.5 pt-3">
                             <span class="px-2.5 py-1 rounded-full bg-[#F0F6FD] text-[11px] text-[#334155] border border-[#C7E0FA]">Chilled AC</span>
-                            <span class="px-2.5 py-1 rounded-full bg-[#F0F6FD] text-[11px] text-[#334155] border border-[#C7E0FA]">High Ground Clearance</span>
+                            <span class="px-2.5 py-1 rounded-full bg-[#F0F6FD] text-[11px] text-[#334155] border border-[#C7E0FA]">Self-Drive Rent</span>
                             <span class="px-2.5 py-1 rounded-full bg-[#F0F6FD] text-[11px] text-[#334155] border border-[#C7E0FA]">Smooth Ride</span>
                         </div>
                     </div>
@@ -188,16 +209,22 @@
                     <a href="tel:8877177161" class="btn-gold w-full py-2.5 text-xs block text-center font-bold shadow-md">
                         📞 Call to Book Brezza
                     </a>
+                    <a href="https://wa.me/918877177161?text=Hi%20Patna%20Transport,%20I%20want%20to%20rent%20Brezza%20for%20Self-Drive." target="_blank" class="w-full text-center py-2 text-xs block font-bold text-emerald-800 bg-emerald-50 hover:bg-emerald-100 rounded-full border border-emerald-300">
+                        💬 WhatsApp for Self-Drive Rent
+                    </a>
                 </div>
             </div>
 
             <!-- CAB 4: Mahindra Thar 4x4 -->
-            <div class="cab-card suv card-clean overflow-hidden flex flex-col justify-between">
+            <div class="cab-card suv selfdrive card-clean overflow-hidden flex flex-col justify-between border-2 border-red-300 bg-gradient-to-b from-red-50/20 to-white">
                 <div>
                     <div class="h-56 overflow-hidden relative">
                         <img src="{{ asset('images/car_thar.jpg') }}" alt="Mahindra Thar 4x4" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                         <span class="absolute top-4 left-4 bg-red-600 text-white px-3 py-1 rounded-full text-xs font-bold shadow-sm">
                             🔥 THAR 4x4 VIP
+                        </span>
+                        <span class="absolute top-4 right-4 bg-emerald-600 text-white px-2.5 py-0.5 rounded-full text-[10px] font-bold shadow-md">
+                            🚗 SELF-DRIVE TOP PICK
                         </span>
                     </div>
                     <div class="p-6">
@@ -205,7 +232,8 @@
                             <h3 class="text-xl font-bold text-[#0B172A]">Mahindra Thar 4x4</h3>
                             <span class="text-xl font-bold text-amber-600">₹18 <span class="text-xs text-slate-500 font-sans">/ KM</span></span>
                         </div>
-                        <p class="text-xs text-[#475569] mb-4">Commanding road presence, iconic red styling for VIP events, wedding entries, and hill tours.</p>
+                        <div class="text-[11px] font-bold text-emerald-700 mb-2">🚗 Self-Drive Rent: From ₹3,500 / Day</div>
+                        <p class="text-xs text-[#475569] mb-4">Commanding road presence, iconic red styling for VIP events, wedding entries, road trips, and self-drive rent.</p>
 
                         <div class="grid grid-cols-3 gap-2 py-3 border-y border-[#E1EFFD] text-center text-xs text-[#475569]">
                             <div>
@@ -224,8 +252,8 @@
 
                         <div class="flex flex-wrap gap-1.5 pt-3">
                             <span class="px-2.5 py-1 rounded-full bg-[#F0F6FD] text-[11px] text-[#334155] border border-[#C7E0FA]">4x4 Capability</span>
+                            <span class="px-2.5 py-1 rounded-full bg-[#F0F6FD] text-[11px] text-[#334155] border border-[#C7E0FA]">Self-Drive Rent</span>
                             <span class="px-2.5 py-1 rounded-full bg-[#F0F6FD] text-[11px] text-[#334155] border border-[#C7E0FA]">VIP Entrance</span>
-                            <span class="px-2.5 py-1 rounded-full bg-[#F0F6FD] text-[11px] text-[#334155] border border-[#C7E0FA]">Top-Rated Driver</span>
                         </div>
                     </div>
                 </div>
@@ -236,16 +264,22 @@
                     <a href="tel:8877177161" class="btn-gold w-full py-2.5 text-xs block text-center font-bold shadow-md">
                         📞 Call to Book Thar
                     </a>
+                    <a href="https://wa.me/918877177161?text=Hi%20Patna%20Transport,%20I%20want%20to%20rent%20Thar%204x4%20for%20Self-Drive." target="_blank" class="w-full text-center py-2 text-xs block font-bold text-emerald-800 bg-emerald-50 hover:bg-emerald-100 rounded-full border border-emerald-300">
+                        💬 WhatsApp for Self-Drive Rent
+                    </a>
                 </div>
             </div>
 
             <!-- CAB 5: Maruti Swift Special -->
-            <div class="cab-card sedan card-clean overflow-hidden flex flex-col justify-between">
+            <div class="cab-card sedan selfdrive card-clean overflow-hidden flex flex-col justify-between">
                 <div>
                     <div class="h-56 overflow-hidden relative">
                         <img src="{{ asset('images/car_swift_red.jpg') }}" alt="Maruti Swift Special" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                         <span class="absolute top-4 left-4 bg-sky-600 text-white px-3 py-1 rounded-full text-xs font-bold shadow-sm">
                             ⚡ CITY EXPRESS
+                        </span>
+                        <span class="absolute top-4 right-4 bg-emerald-600 text-white px-2.5 py-0.5 rounded-full text-[10px] font-bold shadow-md">
+                            🚗 SELF-DRIVE AVAILABLE
                         </span>
                     </div>
                     <div class="p-6">
@@ -253,7 +287,8 @@
                             <h3 class="text-xl font-bold text-[#0B172A]">Maruti Swift</h3>
                             <span class="text-xl font-bold text-amber-600">₹10 <span class="text-xs text-slate-500 font-sans">/ KM</span></span>
                         </div>
-                        <p class="text-xs text-[#475569] mb-4">Quick, economical city ride for fast navigation across Boring Road, Bailey Road, and railway station.</p>
+                        <div class="text-[11px] font-bold text-emerald-700 mb-2">🚗 Self-Drive Rent: From ₹1,400 / Day</div>
+                        <p class="text-xs text-[#475569] mb-4">Quick, economical city ride or self-drive rent for fast navigation across Boring Road, Bailey Road, and railway station.</p>
 
                         <div class="grid grid-cols-3 gap-2 py-3 border-y border-[#E1EFFD] text-center text-xs text-[#475569]">
                             <div>
@@ -272,7 +307,7 @@
 
                         <div class="flex flex-wrap gap-1.5 pt-3">
                             <span class="px-2.5 py-1 rounded-full bg-[#F0F6FD] text-[11px] text-[#334155] border border-[#C7E0FA]">Quick Pickup</span>
-                            <span class="px-2.5 py-1 rounded-full bg-[#F0F6FD] text-[11px] text-[#334155] border border-[#C7E0FA]">Best Value</span>
+                            <span class="px-2.5 py-1 rounded-full bg-[#F0F6FD] text-[11px] text-[#334155] border border-[#C7E0FA]">Self-Drive Rent</span>
                             <span class="px-2.5 py-1 rounded-full bg-[#F0F6FD] text-[11px] text-[#334155] border border-[#C7E0FA]">AC Cab</span>
                         </div>
                     </div>
@@ -283,6 +318,9 @@
                     </button>
                     <a href="tel:8877177161" class="btn-gold w-full py-2.5 text-xs block text-center font-bold shadow-md">
                         📞 Call to Book Swift
+                    </a>
+                    <a href="https://wa.me/918877177161?text=Hi%20Patna%20Transport,%20I%20want%20to%20rent%20Swift%20for%20Self-Drive." target="_blank" class="w-full text-center py-2 text-xs block font-bold text-emerald-800 bg-emerald-50 hover:bg-emerald-100 rounded-full border border-emerald-300">
+                        💬 WhatsApp for Self-Drive Rent
                     </a>
                 </div>
             </div>
