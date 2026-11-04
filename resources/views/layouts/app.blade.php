@@ -13,6 +13,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="{{ asset('images/logo.png') }}">
+    <link rel="apple-touch-icon" href="{{ asset('images/logo.png') }}">
+
     <!-- Styles & Scripts via Vite -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
@@ -45,12 +49,10 @@
     <div id="navContainer" class="fixed top-11 inset-x-0 z-[100] flex justify-center px-4 pointer-events-none">
         <nav id="floatingNav" class="pointer-events-auto flex items-center justify-between w-full max-w-6xl bg-white/95 backdrop-blur-xl border border-white/60 rounded-full py-3 px-5 sm:px-7 shadow-xl shadow-sky-950/10">
             
-            <!-- Brand Logo (Airplane in Circle) -->
+            <!-- Brand Logo -->
             <a href="{{ route('home') }}" class="flex items-center gap-3 group">
-                <div class="w-10 h-10 rounded-full bg-[#004E92] text-white flex items-center justify-center font-bold text-base shadow-md ring-2 ring-white group-hover:scale-105 transition-transform">
-                    <svg class="w-5 h-5 text-white transform -rotate-45" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/>
-                    </svg>
+                <div class="relative w-10 h-10 rounded-full overflow-hidden shadow-md ring-2 ring-white group-hover:scale-105 transition-transform bg-[#004E92] flex-shrink-0 flex items-center justify-center">
+                    <img src="{{ asset('images/logo.png') }}" alt="Patna Transport Logo" class="w-full h-full object-cover">
                 </div>
                 <div class="flex flex-col">
                     <span class="font-extrabold text-lg text-[#003B73] tracking-tight leading-none">Patna Transport</span>
@@ -121,10 +123,8 @@
                 <!-- Col 1: Brand Info -->
                 <div class="md:col-span-2 space-y-4">
                     <div class="flex items-center gap-3">
-                        <div class="w-11 h-11 rounded-full bg-[#004E92] text-white flex items-center justify-center font-bold text-base shadow-lg ring-2 ring-white/20">
-                            <svg class="w-6 h-6 text-white transform -rotate-45" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/>
-                            </svg>
+                        <div class="relative w-11 h-11 rounded-full overflow-hidden shadow-lg ring-2 ring-white/20 bg-[#004E92] flex-shrink-0 flex items-center justify-center">
+                            <img src="{{ asset('images/logo.png') }}" alt="Patna Transport Logo" class="w-full h-full object-cover">
                         </div>
                         <div>
                             <span class="font-bold text-2xl text-white tracking-tight">Patna Transport</span>
