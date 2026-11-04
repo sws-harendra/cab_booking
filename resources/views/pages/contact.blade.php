@@ -151,16 +151,7 @@
                             </div>
                             <div>
                                 <label class="block text-xs font-semibold uppercase tracking-wider text-[#475569] mb-1.5">Pickup Location in Patna</label>
-                                <select class="input-clean w-full px-4 py-3 text-xs font-medium">
-                                    <option>Boring Road</option>
-                                    <option>Patna Airport (PAT)</option>
-                                    <option>Patna Junction</option>
-                                    <option>Bailey Road</option>
-                                    <option>Kankarbagh</option>
-                                    <option>Danapur</option>
-                                    <option>Patliputra</option>
-                                    <option>Other Patna Location</option>
-                                </select>
+                                <input type="text" placeholder="e.g. Boring Road, Bailey Road, Airport, or your home address" class="input-clean w-full px-4 py-3 text-sm font-medium">
                             </div>
                         </div>
 
