@@ -35,5 +35,8 @@ $_ENV['LOG_CHANNEL'] = 'stderr';
 putenv('CACHE_STORE=array');
 $_ENV['CACHE_STORE'] = 'array';
 
+putenv('ASSET_URL=/');
+$_ENV['ASSET_URL'] = '/';
+
 require __DIR__ . '/../public/index.php';
 
