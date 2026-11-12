@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Patna Transport | Safe • Reliable • On-Time Travel Since Years | Boring Road, Patna')
+@section('title', 'Patna Transport | Safe • Reliable • On-Time Travel Since Years | Atal path beside Pani Tanki near the fit spoon, 800024')
 
 @section('content')
 <!-- HERO SECTION (Refined Soft Dark Wash with Clean Luminous Console & Gold Accents) -->
@@ -35,7 +35,7 @@
 
         <!-- Simple, Clear Subtitle with Address -->
         <p class="max-w-3xl mx-auto text-base sm:text-lg md:text-xl text-slate-200 font-normal mb-8 leading-relaxed px-4">
-            Based at <strong>Boring Road, Patna</strong>. Reliable 24x7 city cabs, Patna Airport (PAT) pickup & drop, outstation trips across Bihar, and <strong>Self-Drive Cars on Rent</strong> (Thar, Scorpio, Brezza, Dzire) with hassle-free daily/weekly packages.
+            Based at <strong>Atal path beside Pani Tanki near the fit spoon, 800024</strong>. Reliable 24x7 city cabs, Patna Airport (PAT) pickup & drop, outstation trips across Bihar, and <strong>Self-Drive Cars on Rent</strong> (Thar, Scorpio, Brezza, Dzire) with hassle-free daily/weekly packages.
         </p>
 
         <!-- Primary Call to Action Buttons -->
@@ -60,7 +60,7 @@
                     📍
                 </div>
                 <span class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-1">Our Location</span>
-                <span class="text-[#0B172A] text-base sm:text-lg font-bold">Boring Road, Patna</span>
+                <span class="text-[#0B172A] text-xs sm:text-sm font-bold text-center leading-snug">Atal path beside Pani Tanki near the fit spoon, 800024</span>
             </div>
 
             <div class="flex flex-col items-center p-5 bg-white/95 backdrop-blur-md rounded-3xl border-2 border-amber-300 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 bg-amber-50/50">
@@ -305,7 +305,7 @@
                         <span class="text-amber-400">Zero Driver Intrusion • 100% Privacy</span>
                     </h2>
                     <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
-                        Planning a family road trip, weekend outing, or wedding entry? Rent Mahindra Thar 4x4, Scorpio Classic, Brezza, Dzire or Swift on flexible <strong>Daily & Weekly Rent</strong> directly from Boring Road, Patna.
+                        Planning a family road trip, weekend outing, or wedding entry? Rent Mahindra Thar 4x4, Scorpio Classic, Brezza, Dzire or Swift on flexible <strong>Daily & Weekly Rent</strong> directly from Atal path beside Pani Tanki near the fit spoon, 800024.
                     </p>
 
                     <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-3">
@@ -317,7 +317,7 @@
                         <div class="p-3 bg-white/10 rounded-2xl border border-white/10 text-center">
                             <span class="text-xl block mb-1">📍</span>
                             <span class="text-[11px] font-bold text-amber-300 block">Door Delivery</span>
-                            <span class="text-[10px] text-slate-300">Boring Rd / PAT</span>
+                            <span class="text-[10px] text-slate-300">Atal Path / PAT</span>
                         </div>
                         <div class="p-3 bg-white/10 rounded-2xl border border-white/10 text-center">
                             <span class="text-xl block mb-1">🛡️</span>
@@ -423,7 +423,7 @@
             <span class="text-amber-400 font-bold text-xs uppercase tracking-widest block">Safe • Reliable • On-Time Travel Since Years</span>
             <h2 class="text-3xl sm:text-4xl font-bold leading-tight">Ready to Book Your Ride in Patna?</h2>
             <p class="text-sky-200 text-sm sm:text-base font-normal">
-                Reserve online in under 60 seconds or call our 24x7 Boring Road dispatch office directly.
+                Reserve online in under 60 seconds or call our 24x7 Atal path dispatch office directly.
             </p>
             <div class="pt-4 flex flex-wrap items-center justify-center gap-4">
                 <a href="tel:8877177161" class="btn-gold text-sm font-bold px-8 py-4 flex items-center gap-2 shadow-xl">

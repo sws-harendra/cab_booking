@@ -191,7 +191,7 @@
             <div class="text-center sm:text-left space-y-1">
                 <span class="text-amber-400 text-xs font-bold uppercase tracking-wider block">Safe • Reliable • On-Time Travel Since Years</span>
                 <h3 class="text-xl sm:text-2xl font-bold">24x7 Passenger Safety & Helpline</h3>
-                <p class="text-xs text-sky-200">Our Boring Road operations center monitors every ride live until you reach safely.</p>
+                <p class="text-xs text-sky-200">Our Atal path operations center monitors every ride live until you reach safely.</p>
             </div>
             <a href="tel:8877177161" class="btn-gold px-8 py-3.5 text-xs font-bold flex items-center gap-2 shadow-lg shrink-0">
                 <span>📞 Call Safety Desk: 8877177161</span>

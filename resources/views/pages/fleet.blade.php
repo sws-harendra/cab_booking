@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Our Cabs & Transparent Fares | Patna Transport | Boring Road, Patna')
+@section('title', 'Our Cabs & Transparent Fares | Patna Transport | Atal path beside Pani Tanki near the fit spoon, 800024')
 
 @section('content')
 <!-- FLEET HERO HEADER (Light Blue Atmosphere with Golden Accents) -->
@@ -18,7 +18,7 @@
             Our Cabs & <span class="text-amber-500">Fixed Fares</span>
         </h1>
         <p class="text-[#475569] text-sm sm:text-base max-w-xl mx-auto font-normal leading-relaxed">
-            Patna Transport fleet based at <strong>Boring Road, Patna</strong>. Clean air-conditioned cabs, polite verified drivers, and 100% transparent rates in Indian Rupees with zero hidden surge.
+            Patna Transport fleet based at <strong>Atal path beside Pani Tanki near the fit spoon, 800024</strong>. Clean air-conditioned cabs, polite verified drivers, and 100% transparent rates in Indian Rupees with zero hidden surge.
         </p>
 
         <!-- Category Filter Buttons (Light Blue Pill Style) -->
@@ -471,7 +471,7 @@
             <h3 class="text-2xl sm:text-3xl font-bold">Need a Cab in Patna Right Now?</h3>
             <p class="text-xs sm:text-sm text-sky-200">Local rides, Jay Prakash Narayan Airport (PAT) transfers, or outstation tours across Bihar.</p>
             <div class="flex flex-wrap items-center gap-3 text-xs text-sky-200 font-semibold pt-1">
-                <span>📍 Boring Road, Patna</span>
+                <span>📍 Atal path beside Pani Tanki near the fit spoon, 800024</span>
                 <span>•</span>
                 <span>⚡ 3-5 Min Pickup</span>
                 <span>•</span>

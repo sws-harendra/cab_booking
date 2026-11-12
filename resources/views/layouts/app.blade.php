@@ -33,7 +33,7 @@
                     <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
                     24x7 Active
                 </span>
-                <span class="hidden sm:inline text-sky-200">📍 <strong>Our Location:</strong> Boring Road, Patna</span>
+                <span class="hidden sm:inline text-sky-200">📍 <strong>Our Location:</strong> Atal path beside Pani Tanki near the fit spoon, 800024</span>
                 <span class="text-sky-200 hidden md:inline">• 24x7 Cabs | 🚗 Self-Drive Car Rentals | Outstation | Airport Pickup</span>
             </div>
             <div class="flex items-center gap-4 text-xs font-bold ml-auto sm:ml-0">
@@ -132,14 +132,14 @@
                         </div>
                     </div>
                     <p class="text-sm text-slate-300 max-w-sm leading-relaxed font-light">
-                        Patna's premier cab & self-drive car rental service based at Boring Road. Delivering reliable 24x7 local rides, self-drive cars on daily/weekly rent, on-time airport pickups at Jay Prakash Narayan Airport (PAT), and outstation trips across Bihar and Jharkhand.
+                        Patna's premier cab & self-drive car rental service based at Atal path beside Pani Tanki near the fit spoon, 800024. Delivering reliable 24x7 local rides, self-drive cars on daily/weekly rent, on-time airport pickups at Jay Prakash Narayan Airport (PAT), and outstation trips across Bihar and Jharkhand.
                     </p>
                     <div class="flex flex-wrap items-center gap-4 text-xs text-amber-400 font-semibold pt-1">
                         <span>✨ 24x7 Cab Service</span>
                         <span>✨ 🚗 Self-Drive Rentals</span>
                         <span>✨ Outstation Trips</span>
                         <span>✨ Airport Pickup</span>
-                        <span>✨ Boring Road, Patna</span>
+                        <span>✨ Atal path beside Pani Tanki near the fit spoon, 800024</span>
                     </div>
                 </div>
 
@@ -166,7 +166,7 @@
                         </div>
                         <div class="text-slate-300">
                             <strong class="text-white block">📍 Office Location:</strong>
-                            Boring Road, Patna, Bihar - 800001
+                            Atal path beside Pani Tanki near the fit spoon, 800024
                         </div>
                         <div class="text-slate-300">
                             <strong class="text-white block">✈️ Airport Desk:</strong>
@@ -179,7 +179,7 @@
 
             <!-- Bottom Line -->
             <div class="border-t border-sky-900/60 pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400 gap-3">
-                <p>&copy; {{ date('Y') }} Patna Transport. Safe • Reliable • On-Time Travel Since Years. Boring Road, Patna.</p>
+                <p>&copy; {{ date('Y') }} Patna Transport. Safe • Reliable • On-Time Travel Since Years. Atal path beside Pani Tanki near the fit spoon, 800024.</p>
                 <div class="flex items-center gap-6">
                     <a href="tel:8877177161" class="text-amber-300 font-bold hover:underline">📞 8877177161</a>
                     <a href="{{ route('safety') }}" class="hover:text-amber-300 transition-colors">Safety Standards</a>

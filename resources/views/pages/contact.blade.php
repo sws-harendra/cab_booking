@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Contact Us | Patna Transport | Boring Road, Patna | 8877177161')
+@section('title', 'Contact Us | Patna Transport | Atal path beside Pani Tanki near the fit spoon, 800024 | 8877177161')
 
 @section('content')
 <!-- CONTACT HERO (Light Blue & Golden Radiant Atmosphere) -->
@@ -12,13 +12,13 @@
     <div class="max-w-4xl mx-auto relative z-10">
         <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/90 border border-[#C7E0FA] text-[#004E92] text-xs font-bold uppercase tracking-wider mb-4 shadow-sm">
             <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
-            24x7 Dispatch Office: Boring Road, Patna
+            24x7 Dispatch Office: Atal path beside Pani Tanki near the fit spoon, 800024
         </span>
         <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold text-[#0B172A] mb-4">
             Contact <span class="text-amber-500">Patna Transport</span>
         </h1>
         <p class="text-[#475569] text-sm sm:text-base max-w-xl mx-auto font-light leading-relaxed">
-            Need an urgent cab in Patna, planning an outstation trip across Bihar, or looking for airport pickup? Call our 24/7 Boring Road helpline directly.
+            Need an urgent cab in Patna, planning an outstation trip across Bihar, or looking for airport pickup? Call our 24/7 Atal path helpline directly.
         </p>
     </div>
 </section>
@@ -68,7 +68,7 @@
                             </div>
                             <div>
                                 <span class="text-[10px] text-[#64748B] uppercase font-bold block">OUR OFFICE LOCATION</span>
-                                <span class="text-sm font-bold text-[#0B172A] block">Boring Road, Patna, Bihar - 800001</span>
+                                <span class="text-sm font-bold text-[#0B172A] block">Atal path beside Pani Tanki near the fit spoon, 800024</span>
                             </div>
                         </div>
 
@@ -79,7 +79,7 @@
                             </div>
                             <div>
                                 <span class="text-[10px] text-amber-800 uppercase font-bold block">SELF-DRIVE RENTAL DESK</span>
-                                <span class="text-sm font-bold text-[#0B172A] block">Boring Road, Patna • Daily & Weekly Rent</span>
+                                <span class="text-sm font-bold text-[#0B172A] block">Atal path beside Pani Tanki near the fit spoon, 800024 • Daily & Weekly Rent</span>
                             </div>
                         </div>
 
