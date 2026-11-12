@@ -68,7 +68,7 @@
                             <span class="text-xl font-bold text-amber-600">₹11 <span class="text-xs text-slate-500 font-sans">/ KM</span></span>
                         </div>
                         <div class="text-[11px] font-bold text-emerald-700 mb-2">🚗 Self-Drive Rent: From ₹1,600 / Day</div>
-                        <p class="text-xs text-[#475569] mb-4">Quiet, air-conditioned sedan. Ideal for Patna Airport (PAT) transfers, Boring Road, and daily city travel or self-drive rent.</p>
+                        <p class="text-xs text-[#475569] mb-4">Quiet, air-conditioned sedan. Ideal for Patna Airport (PAT) transfers, Atal Path, and daily city travel or self-drive rent.</p>
 
                         <div class="grid grid-cols-3 gap-2 py-3 border-y border-[#E1EFFD] text-center text-xs text-[#475569]">
                             <div>
@@ -288,7 +288,7 @@
                             <span class="text-xl font-bold text-amber-600">₹10 <span class="text-xs text-slate-500 font-sans">/ KM</span></span>
                         </div>
                         <div class="text-[11px] font-bold text-emerald-700 mb-2">🚗 Self-Drive Rent: From ₹1,400 / Day</div>
-                        <p class="text-xs text-[#475569] mb-4">Quick, economical city ride or self-drive rent for fast navigation across Boring Road, Bailey Road, and railway station.</p>
+                        <p class="text-xs text-[#475569] mb-4">Quick, economical city ride or self-drive rent for fast navigation across Atal Path, Bailey Road, and railway station.</p>
 
                         <div class="grid grid-cols-3 gap-2 py-3 border-y border-[#E1EFFD] text-center text-xs text-[#475569]">
                             <div>

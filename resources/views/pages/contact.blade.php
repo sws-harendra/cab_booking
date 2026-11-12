@@ -165,7 +165,7 @@
                             </div>
                             <div>
                                 <label class="block text-xs font-semibold uppercase tracking-wider text-[#475569] mb-1.5">Pickup Location in Patna</label>
-                                <input type="text" id="bookPickup" required placeholder="e.g. Boring Road, Bailey Road, Airport, or your address" class="input-clean w-full px-4 py-3 text-sm font-medium">
+                                <input type="text" id="bookPickup" required placeholder="e.g. Atal Path, Bailey Road, Airport, or your address" class="input-clean w-full px-4 py-3 text-sm font-medium">
                             </div>
                         </div>
 

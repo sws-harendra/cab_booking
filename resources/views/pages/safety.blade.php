@@ -178,7 +178,7 @@
                     <p class="text-xs text-[#004E92] font-semibold">Corporate & VIP Fleet Chauffeur</p>
                 </div>
                 <p class="text-xs text-[#64748B] leading-relaxed">
-                    Specialist for business delegations, wedding fleets, and silent executive rides from Boring Road.
+                    Specialist for business delegations, wedding fleets, and silent executive rides from Atal Path.
                 </p>
                 <div class="pt-2 border-t border-[#E1EFFD] text-xs font-bold text-[#0B172A]">
                     <span class="text-amber-500">★ 4.99</span> Rating • 2,890 Trips

@@ -121,7 +121,7 @@
                     <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
                 </div>
                 <h3 class="text-xl font-bold text-[#0B172A] mb-2">24x7 Cab Service</h3>
-                <p class="text-[#475569] text-sm font-normal leading-relaxed">Round-the-clock city rides across Patna. Quick 3-5 minute pickup across Boring Road, Bailey Road & Patna Jn.</p>
+                <p class="text-[#475569] text-sm font-normal leading-relaxed">Round-the-clock city rides across Patna. Quick 3-5 minute pickup across Atal Path, Bailey Road & Patna Jn.</p>
             </div>
 
             <!-- Service 2: Self-Drive Car Rental on Rent -->
@@ -383,11 +383,11 @@
             <div class="p-8 rounded-[2rem] bg-[#F0F6FD] border border-[#D2E4F7] space-y-4">
                 <div class="flex text-amber-400 text-sm">★★★★★</div>
                 <p class="text-sm text-[#334155] font-normal leading-relaxed">
-                    "Booked a Dzire from Boring Road to Patna Airport. Cab arrived in 3 minutes, clean seats, polite driver, and the fare was exactly ₹899 as quoted."
+                    "Booked a Dzire from Atal Path to Patna Airport. Cab arrived in 3 minutes, clean seats, polite driver, and the fare was exactly ₹899 as quoted."
                 </p>
                 <div class="pt-2">
                     <h4 class="font-bold text-sm text-[#0B172A]">Pooja Sharma</h4>
-                    <span class="text-xs text-slate-500">Boring Road, Patna</span>
+                    <span class="text-xs text-slate-500">Atal Path, Patna</span>
                 </div>
             </div>
 
